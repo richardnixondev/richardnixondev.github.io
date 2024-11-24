@@ -1,10 +1,10 @@
-domain: example.com
-url: https://example.com
+domain: richardnixon.dev
+url: https://richardnixon.dev
 baseurl: "/wind"
 
-title: Wind
-email: wind@example.com
-author: Wind Sample
+title: richardnixon.dev
+email: contact@richardnixon.dev
+author: Richard Nixon
 
 lang: en
 
@@ -16,6 +16,6 @@ color: "#13ccf9"
 #   shortname: example-com
 #
 rrss:
-  email: "example@example.cl"
-  telegram: "https://t.me/"
-  discord: "https://discord.com/"
+  email: "contact@richardnixon.dev"
+  telegram: "https://t.me/richardnixon"
+
