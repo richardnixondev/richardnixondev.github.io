@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Richard Nixon - Full-Stack MERN Developer</title>
+    <meta name="description" content="View Richard Nixon's portfolio of full-stack MERN development projects, including e-commerce platforms, APIs, and web applications.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@300;400;500&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">RN</a>
+            </div>
+            <nav class="main-nav">
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle">
+                <button id="theme-toggle-btn" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>My Projects</h1>
+                <p>Showcasing my development work</p>
+            </div>
+        </section>
+
+        <!-- Project Filters -->
+        <section class="project-filters">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="frontend">Frontend</button>
+                    <button class="filter-btn" data-filter="backend">Backend</button>
+                    <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Grid -->
+        <section class="projects-section section">
+            <div class="container">
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-category="fullstack">
+                        <div class="project-image">
+                            <!-- Placeholder for project image -->
+                            <div class="project-image-placeholder">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>E-commerce Platform</h3>
+                            <p>Full-stack MERN application with user authentication, product catalog, and payment integration</p>
+                            <div class="project-tech">
+                                <span>MongoDB</span>
+                                <span>Express</span>
+                                <span>React</span>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm">View Project</a>
+                                <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <button class="details-toggle" aria-label="View project details">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card" data-category="frontend">
+                        <div class="project-image">
+                            <!-- Placeholder for project image -->
+                            <div class="project-image-placeholder">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Portfolio Website</h3>
+                            <p>Responsive portfolio website showcasing technical projects and skills</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm">View Project</a>
+                                <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <button class="details-toggle" aria-label="View project details">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card" data-category="backend">
+                        <div class="project-image">
+                            <!-- Placeholder for project image -->
+                            <div class="project-image-placeholder">
+                                <i class="fas fa-tasks"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Task Management API</h3>
+                            <p>RESTful API using Node.js and Express with MongoDB for data persistence</p>
+                            <div class="project-tech">
+                                <span>Node.js</span>
+                                <span>Express</span>
+                                <span>MongoDB</span>
+                                <span>JWT</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm">View Project</a>
+                                <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <button class="details-toggle" aria-label="View project details">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card" data-category="fullstack">
+                        <div class="project-image">
+                            <!-- Placeholder for project image -->
+                            <div class="project-image-placeholder">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Real-time Chat Application</h3>
+                            <p>Chat platform with real-time messaging using Socket.io and MERN stack</p>
+                            <div class="project-tech">
+                                <span>MongoDB</span>
+                                <span>Express</span>
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>Socket.io</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm">View Project</a>
+                                <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <button class="details-toggle" aria-label="View project details">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card" data-category="frontend">
+                        <div class="project-image">
+                            <!-- Placeholder for project image -->
+                            <div class="project-image-placeholder">
+                                <i class="fas fa-cloud-sun"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Weather Dashboard</h3>
+                            <p>Interactive weather application using React and external weather API</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>API Integration</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm">View Project</a>
+                                <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <button class="details-toggle" aria-label="View project details">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="project-card" data-category="backend">
+                        <div class="project-image">
+                            <!-- Placeholder for project image -->
+                            <div class="project-image-placeholder">
+                                <i class="fas fa-user-shield"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Authentication Service</h3>
+                            <p>Secure authentication system with JWT, role-based access control, and password encryption</p>
+                            <div class="project-tech">
+                                <span>Node.js</span>
+                                <span>Express</span>
+                                <span>MongoDB</span>
+                                <span>JWT</span>
+                                <span>bcrypt</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm">View Project</a>
+                                <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <button class="details-toggle" aria-label="View project details">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Details Modal -->
+        <div class="project-modal" id="project-modal">
+            <div class="modal-content">
+                <button class="modal-close" aria-label="Close modal">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="modal-body">
+                    <div class="modal-image-gallery">
+                        <div class="gallery-main">
+                            <img src="assets/images/project-placeholder.jpg" alt="Project screenshot" id="modal-main-image">
+                        </div>
+                        <div class="gallery-thumbs">
+                            <button class="thumb-item active" data-src="assets/images/project-placeholder.jpg">
+                                <img src="assets/images/project-placeholder.jpg" alt="Thumbnail 1">
+                            </button>
+                            <button class="thumb-item" data-src="assets/images/project-placeholder-2.jpg">
+                                <img src="assets/images/project-placeholder-2.jpg" alt="Thumbnail 2">
+                            </button>
+                            <button class="thumb-item" data-src="assets/images/project-placeholder-3.jpg">
+                                <img src="assets/images/project-placeholder-3.jpg" alt="Thumbnail 3">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="modal-info">
+                        <h2 id="modal-title">Project Title</h2>
+                        <div class="modal-tech" id="modal-tech">
+                            <span>Technology 1</span>
+                            <span>Technology 2</span>
+                            <span>Technology 3</span>
+                        </div>
+                        <div class="modal-description">
+                            <h3>Project Overview</h3>
+                            <p id="modal-description">Project description will appear here.</p>
+                        </div>
+                        <div class="modal-features">
+                            <h3>Key Features</h3>
+                            <ul id="modal-features">
+                                <li>Feature 1</li>
+                                <li>Feature 2</li>
+                                <li>Feature 3</li>
+                            </ul>
+                        </div>
+                        <div class="modal-challenges">
+                            <h3>Challenges & Solutions</h3>
+                            <p id="modal-challenges">Challenges and solutions will appear here.</p>
+                        </div>
+                        <div class="modal-links">
+                            <a href="#" class="btn btn-primary" id="modal-live-link">View Live Project</a>
+                            <a href="#" class="btn btn-secondary" id="modal-github-link">View GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact CTA -->
+        <section class="contact-cta section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Interested in working together?</h2>
+                    <p>Let's discuss how I can contribute to your next project.</p>
+                    <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2025 Richard Nixon. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/richardnixondev" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:rnixonaf@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/projects.js"></script>
+</body>
+</html>
